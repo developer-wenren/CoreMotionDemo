@@ -28,3 +28,8 @@ DerivedData/
 *.xcuserstate
 
 *.1
+DerivedData/传感器Demo/Index/Debug/iphoneos8.1-arm64/传感器Demo.xcindex/db.xcindexdb-wal
+
+*.xcindexdb
+
+*.xcindexdb-wal
