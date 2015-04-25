@@ -15,6 +15,31 @@
 @implementation AppDelegate
 
 
+/**
+ *  开始摇晃时调用
+ *
+ *  @param motion 摇晃事件类型
+ *  @param event  事件
+ */
+-(void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"%s",__func__);
+
+}
+
+-(void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"%s",__func__);
+
+}
+
+-(void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"%s",__func__);
+
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
